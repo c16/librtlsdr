@@ -39,3 +39,6 @@ CMakeCache.txt
 */CMakeFiles
 CMakeFiles
 *.cmake
+msvc/.vs/
+msvc/x64/
+msvc/librtlsdr_2019/
