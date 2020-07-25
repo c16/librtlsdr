@@ -60,8 +60,8 @@
 #endif
 
 #include <math.h>
-#include <pthread.h>
-#include <libusb.h>
+//#include <pthread.h>
+//#include <libusb.h>
 
 #include "rtl-sdr.h"
 #include "convenience/convenience.h"
@@ -794,7 +794,7 @@ int main(int argc, char **argv)
 	while ((opt = getopt(argc, argv, "f:i:s:t:d:g:p:e:w:c:F:1PDOhT")) != -1) {
 		switch (opt) {
 		case 'f': // lower:upper:bin_size
-			freq_optarg = strdup(optarg);
+			freq_optarg = _strdup(optarg);
 			f_set = 1;
 			break;
 		case 'd':
