@@ -18,8 +18,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtl_sdr", "rtl_sdr.vcxproj"
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtl_power", "rtl_power.vcxproj", "{646C0FED-9F08-41A1-AE66-8D1322395BB7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB5A32F3-FEBD-48B5-9C56-ADFC3B3C8CFB} = {BB5A32F3-FEBD-48B5-9C56-ADFC3B3C8CFB}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtl_test", "rtl_test.vcxproj", "{9F7F8E70-B660-4683-A7F6-2A71513DF535}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB5A32F3-FEBD-48B5-9C56-ADFC3B3C8CFB} = {BB5A32F3-FEBD-48B5-9C56-ADFC3B3C8CFB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

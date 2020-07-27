@@ -42,3 +42,6 @@ CMakeFiles
 msvc/.vs/
 msvc/x64/
 msvc/librtlsdr_2019/
+msvc/exe/
+msvc/Win32/
+msvc/rtl_*/
