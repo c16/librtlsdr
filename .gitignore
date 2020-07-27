@@ -45,3 +45,5 @@ msvc/librtlsdr_2019/
 msvc/exe/
 msvc/Win32/
 msvc/rtl_*/
+msvc/*.vcxproj.user
+msvc/lib/*

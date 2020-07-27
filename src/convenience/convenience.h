@@ -23,6 +23,9 @@
  * \param s a string to be parsed
  * \return double
  */
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 double atofs(char *s);
 
@@ -140,3 +143,6 @@ int verbose_reset_buffer(rtlsdr_dev_t *dev);
 
 int verbose_device_search(char *s);
 
+#ifdef __cplusplus
+}
+#endif
